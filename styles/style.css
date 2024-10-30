@@ -23,7 +23,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   width: 1200px;
@@ -31,17 +31,17 @@ html {
   display: flex;
 }
 .content {
-  margin: 133px 30px 133px 30px;
+  margin: auto 30px auto 30px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap:30px;
+  gap: 30px;
 }
 
 .result {
   display: flex;
   flex-direction: column;
-  gap:16px;
+  gap: 16px;
   align-items: flex-start;
 }
 .result__video-container {
@@ -69,7 +69,7 @@ html {
 }
 
 .search-form__label:has(:focus-visible) {
-  border: 1px solid rgba(255, 255, 255, 1)
+  border: 1px solid rgba(255, 255, 255, 1);
 }
 .search-form__label:hover {
   text-decoration: underline;
@@ -84,12 +84,12 @@ html {
   border-width: 0;
 }
 
-.search-form__fieldset-title{
+.search-form__fieldset-title {
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.search-form__textfield { 
+.search-form__textfield {
   color: rgba(255, 255, 255, 0.7);
   border-width: 1px 0px 1px 0px;
   border-style: solid;
@@ -117,8 +117,8 @@ html {
 
 input[type="checkbox"]:active + .search-form__pseudo-checkbox:after,
 input[type="checkbox"]:checked + .search-form__pseudo-checkbox:after {
-  content: '';
-  width:15px;
+  content: "";
+  width: 15px;
   height: 15px;
   border: 1px solid rgba(255, 255, 255, 1);
   background-color: #fff;
@@ -127,11 +127,11 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox:after {
 }
 
 .search-form__pseudo-checkbox {
-  margin: 2px 5px 2px 2px; 
+  margin: 2px 5px 2px 2px;
   vertical-align: middle;
-  width:19px;
+  width: 19px;
   height: 19px;
-  border-color: #FFF;
+  border-color: #fff;
   border-width: 1px;
   border-style: solid;
   cursor: pointer;
@@ -143,13 +143,13 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox:after {
 }
 
 .button {
- text-align: center;
+  text-align: center;
   font-weight: 700;
   line-height: 22px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: transparent;
-  border-color: #FFF;
+  border-color: #fff;
   border-width: 1px;
   border-style: solid;
   cursor: pointer;
@@ -162,13 +162,11 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox:after {
 }
 
 .button:focus-visible {
-  outline-offset: -3px; 
-  outline-color: #FFF;
+  outline-offset: -3px;
+  outline-color: #fff;
   outline-width: 1px;
   outline-style: solid;
 }
-
-
 
 .search-form__submit-button {
   width: 194px;
@@ -183,20 +181,20 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox:after {
 .title {
   margin-bottom: 26px;
   margin-right: 139px;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
-  color: #FFF;
+  color: #fff;
 }
 
 .content__list {
   overflow: scroll;
-  height:298px;
+  height: 298px;
   display: flex;
-  gap:30px;
+  gap: 30px;
   flex-direction: column;
   position: relative;
 }
@@ -207,19 +205,18 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox:after {
   align-items: start;
 }
 
-.content__video-card-thumbnail{
+.content__video-card-thumbnail {
   width: 194px;
   height: 103px;
 }
 
 .content__accent {
-  color:  #545050;
+  color: #545050;
 }
-
 
 .content__card-link {
   display: block;
-  margin:2px;
+  margin: 2px;
   cursor: pointer;
 }
 .content__card-link_current {
@@ -229,7 +226,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox:after {
 .content__card-link,
 .content__card-link:visited {
   text-decoration: none;
-  color:#fff
+  color: #fff;
 }
 
 .content__card-link:active {
@@ -250,14 +247,14 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox:after {
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
-  gap:6px;
+  gap: 6px;
   flex-grow: 1;
   padding-left: 2px;
   padding-top: 2px;
 }
 
 .content__video-card-title {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
